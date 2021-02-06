@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B105E16E25C536CE007CF5B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B105E16D25C536CE007CF5B9 /* GoogleService-Info.plist */; };
+		B105E17325C7BD13007CF5B9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105E17225C7BD12007CF5B9 /* DatabaseManager.swift */; };
 		B1E2440E25C159C3003BCA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2440D25C159C3003BCA3E /* AppDelegate.swift */; };
 		B1E2441025C159C3003BCA3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2440F25C159C3003BCA3E /* SceneDelegate.swift */; };
 		B1E2441225C159C3003BCA3E /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2441125C159C3003BCA3E /* ConversationViewController.swift */; };
@@ -16,12 +18,14 @@
 		B1E2442525C159C6003BCA3E /* Just_EaglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2442425C159C6003BCA3E /* Just_EaglesTests.swift */; };
 		B1E2443025C159C6003BCA3E /* Just_EaglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2442F25C159C6003BCA3E /* Just_EaglesUITests.swift */; };
 		B1E2444A25C16137003BCA3E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2444925C16137003BCA3E /* StartViewController.swift */; };
-		B1E2444F25C226D5003BCA3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2444E25C226D5003BCA3E /* LoginViewController.swift */; };
-		B1E2445425C226E5003BCA3E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2445325C226E5003BCA3E /* RegisterViewController.swift */; };
 		B1E2445925C22700003BCA3E /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2445825C22700003BCA3E /* PhotoViewerViewController.swift */; };
 		B1E2445E25C22714003BCA3E /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2445D25C22714003BCA3E /* VideoPlayerViewController.swift */; };
 		B1E2446325C2272F003BCA3E /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2446225C2272F003BCA3E /* NewConversationViewController.swift */; };
 		B1E2446825C22741003BCA3E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2446725C22741003BCA3E /* ProfileViewController.swift */; };
+		B1E2447425C231DF003BCA3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2447325C231DF003BCA3E /* LoginViewController.swift */; };
+		B1E2447C25C231F6003BCA3E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2447B25C231F6003BCA3E /* RegisterViewController.swift */; };
+		B1E2448125C23B28003BCA3E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2448025C23B28003BCA3E /* Extensions.swift */; };
+		CC27ACC97A4DBCFD7F82F8F6 /* Pods_Just_Eagles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7922783B48CB65C1C65FD8A /* Pods_Just_Eagles.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		291200A6286DE93B3915C49E /* Pods-Just Eagles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Just Eagles.debug.xcconfig"; path = "Target Support Files/Pods-Just Eagles/Pods-Just Eagles.debug.xcconfig"; sourceTree = "<group>"; };
+		A7922783B48CB65C1C65FD8A /* Pods_Just_Eagles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Just_Eagles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B105E16D25C536CE007CF5B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B105E17225C7BD12007CF5B9 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		B1E2440A25C159C3003BCA3E /* Just Eagles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just Eagles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E2440D25C159C3003BCA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1E2440F25C159C3003BCA3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,12 +65,14 @@
 		B1E2442F25C159C6003BCA3E /* Just_EaglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_EaglesUITests.swift; sourceTree = "<group>"; };
 		B1E2443125C159C6003BCA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1E2444925C16137003BCA3E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		B1E2444E25C226D5003BCA3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		B1E2445325C226E5003BCA3E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B1E2445825C22700003BCA3E /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
 		B1E2445D25C22714003BCA3E /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		B1E2446225C2272F003BCA3E /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		B1E2446725C22741003BCA3E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B1E2447325C231DF003BCA3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B1E2447B25C231F6003BCA3E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B1E2448025C23B28003BCA3E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B457C4CF4A46D5201A50F176 /* Pods-Just Eagles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Just Eagles.release.xcconfig"; path = "Target Support Files/Pods-Just Eagles/Pods-Just Eagles.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC27ACC97A4DBCFD7F82F8F6 /* Pods_Just_Eagles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		464B5BCC30656E86884CB360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7922783B48CB65C1C65FD8A /* Pods_Just_Eagles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69D9F7D0B9B280BDD8D78CC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				291200A6286DE93B3915C49E /* Pods-Just Eagles.debug.xcconfig */,
+				B457C4CF4A46D5201A50F176 /* Pods-Just Eagles.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B1E2440125C159C3003BCA3E = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +125,8 @@
 				B1E2442325C159C6003BCA3E /* Just EaglesTests */,
 				B1E2442E25C159C6003BCA3E /* Just EaglesUITests */,
 				B1E2440B25C159C3003BCA3E /* Products */,
+				69D9F7D0B9B280BDD8D78CC9 /* Pods */,
+				464B5BCC30656E86884CB360 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +143,7 @@
 		B1E2440C25C159C3003BCA3E /* Just Eagles */ = {
 			isa = PBXGroup;
 			children = (
+				B105E16D25C536CE007CF5B9 /* GoogleService-Info.plist */,
 				B1E2444525C16091003BCA3E /* Controllers */,
 				B1E2444425C16057003BCA3E /* Delegates */,
 				B1E2444325C1600C003BCA3E /* Storyboards */,
@@ -154,6 +185,8 @@
 			children = (
 				B1E2440F25C159C3003BCA3E /* SceneDelegate.swift */,
 				B1E2440D25C159C3003BCA3E /* AppDelegate.swift */,
+				B1E2448025C23B28003BCA3E /* Extensions.swift */,
+				B105E17225C7BD12007CF5B9 /* DatabaseManager.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -161,16 +194,24 @@
 		B1E2444525C16091003BCA3E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B1E2446C25C22871003BCA3E /* Account */,
 				B1E2441125C159C3003BCA3E /* ConversationViewController.swift */,
 				B1E2444925C16137003BCA3E /* StartViewController.swift */,
-				B1E2444E25C226D5003BCA3E /* LoginViewController.swift */,
-				B1E2445325C226E5003BCA3E /* RegisterViewController.swift */,
 				B1E2445825C22700003BCA3E /* PhotoViewerViewController.swift */,
 				B1E2445D25C22714003BCA3E /* VideoPlayerViewController.swift */,
 				B1E2446225C2272F003BCA3E /* NewConversationViewController.swift */,
 				B1E2446725C22741003BCA3E /* ProfileViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B1E2446C25C22871003BCA3E /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B1E2447325C231DF003BCA3E /* LoginViewController.swift */,
+				B1E2447B25C231F6003BCA3E /* RegisterViewController.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1E2443425C159C6003BCA3E /* Build configuration list for PBXNativeTarget "Just Eagles" */;
 			buildPhases = (
+				1E11489D1D8317BC2ED8F065 /* [CP] Check Pods Manifest.lock */,
 				B1E2440625C159C3003BCA3E /* Sources */,
 				B1E2440725C159C3003BCA3E /* Frameworks */,
 				B1E2440825C159C3003BCA3E /* Resources */,
+				B4B732C634D8846110C86935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1E2441A25C159C5003BCA3E /* LaunchScreen.storyboard in Resources */,
+				B105E16E25C536CE007CF5B9 /* GoogleService-Info.plist in Resources */,
 				B1E2441725C159C5003BCA3E /* Assets.xcassets in Resources */,
 				B1E2441525C159C3003BCA3E /* Main.storyboard in Resources */,
 			);
@@ -298,20 +342,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E11489D1D8317BC2ED8F065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Just Eagles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B732C634D8846110C86935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Just Eagles/Pods-Just Eagles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Just Eagles/Pods-Just Eagles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Just Eagles/Pods-Just Eagles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1E2440625C159C3003BCA3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E2447425C231DF003BCA3E /* LoginViewController.swift in Sources */,
+				B105E17325C7BD13007CF5B9 /* DatabaseManager.swift in Sources */,
+				B1E2447C25C231F6003BCA3E /* RegisterViewController.swift in Sources */,
 				B1E2441225C159C3003BCA3E /* ConversationViewController.swift in Sources */,
 				B1E2444A25C16137003BCA3E /* StartViewController.swift in Sources */,
 				B1E2446825C22741003BCA3E /* ProfileViewController.swift in Sources */,
 				B1E2440E25C159C3003BCA3E /* AppDelegate.swift in Sources */,
 				B1E2445925C22700003BCA3E /* PhotoViewerViewController.swift in Sources */,
-				B1E2445425C226E5003BCA3E /* RegisterViewController.swift in Sources */,
 				B1E2445E25C22714003BCA3E /* VideoPlayerViewController.swift in Sources */,
 				B1E2446325C2272F003BCA3E /* NewConversationViewController.swift in Sources */,
-				B1E2444F25C226D5003BCA3E /* LoginViewController.swift in Sources */,
+				B1E2448125C23B28003BCA3E /* Extensions.swift in Sources */,
 				B1E2441025C159C3003BCA3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +573,7 @@
 		};
 		B1E2443525C159C6003BCA3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291200A6286DE93B3915C49E /* Pods-Just Eagles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +593,7 @@
 		};
 		B1E2443625C159C6003BCA3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B457C4CF4A46D5201A50F176 /* Pods-Just Eagles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
